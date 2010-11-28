@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PostToFF</string>
+    <string name="title_main">Post to FriendFeed</string>
+    
+    <string name="title_send">Send To FriendFeed</string>
+    <string name="label_body">New Entry</string>
+    <string name="label_comment">Comment (Optional)</string>
+    <string name="label_status"></string>
+    <string name="button_submit">Send</string>
+    
+    <string name="title_auth">Authentication</string>
+    <string name="label_username">Username</string>
+    <string name="label_remotekey">Remote Key</string>
+    <string name="label_remotekey_help">Not sure what your remote key is? Visit https://friendfeed.com/account/api</string>
+    <string name="button_save">Save</string>
+</resources>

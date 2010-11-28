@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:padding="10dp">
+
+    <TextView android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:text="@string/label_body" />
+              
+    <EditText android:id="@+id/body" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"/>
+    
+    <TextView android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:text="@string/label_comment" />
+    
+    <EditText android:id="@+id/comment"
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" />
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <Button android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:text="@string/button_submit" 
+                android:id="@+id/submit" 
+                android:paddingLeft="20dp" 
+                android:paddingRight="20dp" 
+                android:textStyle="bold" />
+        
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/label_status" 
+                  android:id="@+id/status" />
+    </LinearLayout>
+    
+</LinearLayout>
